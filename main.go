@@ -74,5 +74,5 @@ func main() {
 	app.GET("/consultants", getAllConsultants)
 	app.POST("/consultant", addConsultant)
 	app.DELETE("/consultant/:id", removeConsultant)
-	app.Run("localhost:8080")
+	app.Run(":8080")
 }
